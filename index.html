@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구미 웹사이트</title>
+    <link rel="stylesheet" href="styles.css">  <!-- 스타일을 적용 -->
+</head>
+<body>
+    <!-- 첫 번째 페이지 -->
+    <div class="container">
+        <h1>쭈구미의 이름을 설정해주세요</h1>
+        <input type="text" id="nickname" placeholder="닉네임을 입력하세요">
+        <button onclick="goToSecondPage()">넥스트</button>
+    </div>
+
+    <!-- 두 번째 페이지 -->
+    <div id="secondPage" class="container" style="display: none;">
+        <h1>안녕? 나는 <span id="nicknameDisplay"></span> 구미야.</h1>
+        <p>나는 사랑을 먹고 자라나. 어떤 사랑을 주냐에 따라서 나의 변신은 무궁무진해!</p>
+    </div>
+
+    <!-- 여기에 추가적인 페이지들이 계속 들어갑니다 -->
+
+    <script src="script.js"></script>  <!-- 동작을 추가 -->
+</body>
+</html>
